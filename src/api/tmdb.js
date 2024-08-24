@@ -3,8 +3,6 @@ axios.defaults.baseURL = "https://api.themoviedb.org/3";
 
 const VITE_API_TOKEN = import.meta.env.VITE_API_TOKEN;
 
-console.log(VITE_API_TOKEN);
-
 const options = {
   headers: {
     Authorization: `Bearer ${VITE_API_TOKEN}`,
