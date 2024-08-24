@@ -1,0 +1,17 @@
+.cardSet {
+  composes: cardSet from 'css/CardSet.module.css';
+  --indent: 16px;
+  --items: 1;
+  gap: var(--indent);
+  height: 305px;
+  overflow: auto;
+}
+
+.review {
+  color: rgb(117, 117, 117)
+}
+
+.author {
+  font-weight: 500;
+  margin-top: 18px;
+}

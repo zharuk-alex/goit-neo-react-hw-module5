@@ -1,0 +1,55 @@
+@import 'css/CardSet.module.css';
+
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+h3 {
+  margin-bottom: 16px;
+}
+
+.posterBlock {
+  object-fit: contain;
+}
+
+.infoBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px
+}
+
+.addInfoBlock {
+  margin: 48px 0;
+}
+
+.geners {
+  display: flex;
+  gap: 24px
+}
+
+.linksSet {
+  display: flex;
+  gap: 48px;
+  margin-block: 16px;
+}
+
+.link {
+  display: inline-flex;
+  text-decoration: none;
+  color: var(--lightgrey-2);
+}
+
+.active {
+  composes: link;
+  color: red;
+}
+
+.cardSet {
+  composes: cardSet from 'css/CardSet.module.css';
+  --indent: 16px;
+  --items: 5;
+  gap: var(--indent);
+
+}

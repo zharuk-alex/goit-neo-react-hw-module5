@@ -5,7 +5,11 @@ import path from "path";
 export default defineConfig({
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "./src"),
+      api: path.resolve(__dirname, "./src/api"),
+      pages: path.resolve(__dirname, "./src/pages"),
+      components: path.resolve(__dirname, "./src/components"),
+      helpers: path.resolve(__dirname, "./src/helpers"),
+      css: "/src/css",
     },
   },
   plugins: [react()],

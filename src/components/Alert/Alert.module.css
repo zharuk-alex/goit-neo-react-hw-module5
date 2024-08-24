@@ -1,0 +1,17 @@
+.card {
+  background-color: var(--lightgrey-1);
+  border: 1px solid var(--lightgrey-1);
+  color: #000;
+  margin-block: 16px auto;
+  padding: 16px 24px;
+  font-size: 18px;
+  min-width: 280px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  background-color: rgb(255, 116, 116);
+  border: 1px solid rgb(255, 116, 116);
+}

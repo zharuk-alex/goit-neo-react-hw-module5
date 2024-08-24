@@ -5,6 +5,10 @@
 }
 
 body {
+  display: block;
+  height: 100dvh;
+  width: 100dvw;
+  overflow: hidden;
   font-family: sans-serif;
   line-height: 1.5;
 }
@@ -24,6 +28,10 @@ ol {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {

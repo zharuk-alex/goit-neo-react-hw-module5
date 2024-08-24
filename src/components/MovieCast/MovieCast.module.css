@@ -1,0 +1,19 @@
+@import 'css/CardSet.module.css';
+
+
+.cardSet {
+  composes: cardSet from 'css/CardSet.module.css';
+  --indent: 16px;
+  --items: 8;
+  gap: var(--indent);
+  justify-content: center;
+}
+
+.cardItem {
+  composes: cardItem from 'css/CardSet.module.css';
+  height: 305px;
+}
+
+.card {
+  gap: 0
+}

@@ -1,0 +1,12 @@
+.cardSet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  gap: var(--indent);
+  justify-content: center;
+}
+
+.cardItem {
+  flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
