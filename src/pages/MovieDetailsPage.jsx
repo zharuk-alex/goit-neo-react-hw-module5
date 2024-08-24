@@ -31,7 +31,7 @@ const MovieDetailsPage = () => {
     if (movieId) {
       fetchData();
     }
-  }, []);
+  }, [movieId]);
 
   const { id } = movie;
 

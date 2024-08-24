@@ -35,7 +35,7 @@ const MovieReviews = () => {
     };
 
     fetchData();
-  }, []);
+  }, [movieId]);
 
   const handlePageChange = (newPage) => {
     setPagination({ ...pagination, page: newPage });
